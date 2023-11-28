@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import {Open_Sans} from 'next/font/google';
 import Link from 'next/link';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+
+
 
 
 const sans = Open_Sans({subsets: ['latin']});
@@ -26,6 +26,7 @@ export default function RootLayout({
         <header className='flex justify-between bg-white'>
           <h1 className='my-5 mx-5 text-5xl text-teal-400'>MathMind<br/>Connecter</h1>
           <div className='mt-5'>
+            <Link className='mr-8 text-xl text-gray-950' href="/">Home</Link>
             <Link className='mr-8 text-xl text-gray-950' href="/mid1">중1</Link>
             <Link className='mr-8 text-xl text-gray-950' href="/mid2">중2</Link>
             <Link className='mr-8 text-xl text-gray-950' href="/mid3">중3</Link>
