@@ -18,10 +18,10 @@ import { SourceTwoBottom, TargetTwoTop } from './CostomNode';
 const initialNodes: Node[] = [
   { id: 'mid1', position: { x: 100, y: 0 }, data: { label: '중1' }, style:{width: 260, backgroundColor: 'gray', color: 'white'}  },
   { id: 'mid2', position: { x:365, y: 0 }, data: { label: '중2' }, style:{width: 260, backgroundColor: 'gray', color: 'white'} },
-  { id: 'mid3', position: { x: 630, y: 0 }, data: { label: '중3' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
-  { id: 'high', position: { x: 865, y: 0 }, data: { label: '수학 상' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
-  { id: 'low', position: { x: 1100, y: 0 }, data: { label: '수학 하' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
-  { id: 'one', position: { x: 1335, y: 0 }, data: { label: '수학1' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
+  { id: 'mid3', position: { x: 630, y: 0 }, data: { label: '중3' }, style:{width: 210, backgroundColor: 'gray', color: 'white'}  },
+  { id: 'high', position: { x: 845, y: 0 }, data: { label: '수학 상' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
+  { id: 'low', position: { x: 1080, y: 0 }, data: { label: '수학 하' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
+  { id: 'one', position: { x: 1315, y: 0 }, data: { label: '수학1' }, style:{width: 230, backgroundColor: 'gray', color: 'white'}  },
 
 
   { id: '1', position: { x: 10, y: 90 }, sourcePosition: Position.Right, targetPosition: Position.Right, 
@@ -73,6 +73,12 @@ const initialNodes: Node[] = [
   { id: '3-1-1-1', position: {x: 490, y: 350}, targetPosition: Position.Left , sourcePosition: Position.Right,
     data: {label: '일차함수와 그래프'}, style: {width: 110, height: 20, display: 'flex', justifyContent: 'center',alignItems: 'center',},
     type: 'TargetTwoTop'
+  },
+  { id: '3-1-1-1-1', position: {x: 680, y: 350}, targetPosition: Position.Left , sourcePosition: Position.Right,
+    data: {label: '이차함수와 그래프'}, style: {width: 110, height: 20, display: 'flex', justifyContent: 'center',alignItems: 'center',},
+  },  
+  { id: '3-1-1-1-1-1', position: {x: 880, y: 300}, targetPosition: Position.Left , sourcePosition: Position.Right,
+    data: {label: '이차함수와 이차방정식의 관계'}, style: {width: 110, height: 40, display: 'flex', justifyContent: 'center',alignItems: 'center',},
   },  
     
   { id: '4-1', position: {x: 100, y: 400}, targetPosition: Position.Left, sourcePosition: Position.Right,
@@ -121,6 +127,8 @@ const initialEdges = [
   { id: 'm1-e-3-1', source: '3', target: '3-1', type: 'straight' },
   { id: 'm1-e-3-1-1', source: '3-1', target: '3-1-1', type: 'straight' },
   { id: 'm1-e-3-1-1-1', source: '3-1-1', target: '3-1-1-1', type: 'straight' },
+  { id: 'm1-e-3-1-1-1-1', source: '3-1-1-1', target: '3-1-1-1-1', type: 'straight' },
+  { id: 'm1-e-3-1-1-1-1-1', source: '3-1-1-1-1', target: '3-1-1-1-1-1', type: 'straight' },
 
   { id: 'm1-e-(4-1)-(3-1-1-1)', source: '4-1', target: '3-1-1-1', type: 'straight' }, // 순서상-일차함수그래프
 
