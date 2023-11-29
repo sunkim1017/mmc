@@ -14,6 +14,7 @@ import ReactFlow, {
   Position
 } from 'react-flow-renderer';
 import { SourceTwoBottom, TargetTwoTop } from './CostomNode';
+import { useRouter } from 'next/navigation';
 
 const initialNodes: Node[] = [
   { id: 'mid1', position: { x: 100, y: 0 }, data: { label: '중1' }, style:{width: 260, backgroundColor: 'gray', color: 'white'}  },
@@ -145,11 +146,23 @@ const initialEdges = [
 
  
 export default function FlowChart() {
+  const router = useRouter();
+
+  const onNodeClick = (event: React.MouseEvent, node: Node) => {
+    console.log(`Clicked on node ${node.id}`);
+    // 여기에 원하는 노드 클릭 시의 동작을 추가하세요.
+    if(node.id === '3-1-1-1-1-1'){
+      router.push('/mathH');
+    }
+  };
+
+
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
       <ReactFlow 
         nodes={initialNodes} 
         edges={initialEdges} 
+        onNodeClick={onNodeClick}
       />
     </div>
   );
