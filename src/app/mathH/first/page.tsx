@@ -13,7 +13,9 @@ export default function FirstPage(){
       <h1 className="text-xl mt-5">1. 이차방정식과 이차함수의 관계</h1>
       <div className="flex justify-between gap-16 mx-40 my-14">
         <div>
-          <LiaSeedlingSolid size={200} onClick={()=> router.push('/mathH/first/activity')}/>
+          <LiaSeedlingSolid size={200} 
+            onClick={()=> {
+              router.push(`/mathH/first/activity`)}}/>
           <p className="text-2xl ml-14 font-semibold">활동하기</p>
         </div>
 

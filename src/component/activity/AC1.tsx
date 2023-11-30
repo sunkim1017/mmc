@@ -1,11 +1,13 @@
+'use client'
+
 import ProgressBar from "@/component/PercentageBar";
 import { TbChalkboard } from "react-icons/tb";
 import { TiArrowBack } from "react-icons/ti";
 import { TiArrowForward } from "react-icons/ti";
-
+import { useRouter } from "next/navigation";
 
 export default function AC1() {
-  
+  const router = useRouter();
   return (
     <>
     <div className="relative">
@@ -21,17 +23,17 @@ export default function AC1() {
       </p>
 
 
-      <footer style={{marginTop: 200, marginLeft: 30}} className="text-black">
-        
-        <p className="font-bold">미션 진행률: 10%</p>
-        <ProgressBar value={10}/>
-        <div className="absolute" style={{  marginLeft: 900}}><TiArrowBack size={100} /></div>
-        <div className="absolute" style={{  marginLeft: 1000}}><TiArrowForward size={100} /></div>
-      </footer>
+      
 
 
     </div>
-
+    <footer style={{marginTop: 200, marginLeft: 30}} className="text-black">
+        
+        <p className="font-bold">미션 진행률: 0%</p>
+        <ProgressBar value={0}/>
+        <div className="absolute" style={{  marginLeft: 900}}><TiArrowBack size={100} /></div>
+        <div className="absolute" style={{  marginLeft: 1000}}><TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/one')}/></div>
+      </footer>
     </>
   )
 }
