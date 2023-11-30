@@ -1,10 +1,10 @@
-import AC3 from "@/component/activity/AC3";
+import AC4 from "@/component/activity/AC4";
 
 export default function ActivityPage() {
   
   return (
     <>
-      <AC3></AC3>
+      <AC4></AC4>
     </>
   )
 }
