@@ -17,14 +17,17 @@ import ListItemText from '@mui/material/ListItemText';
 import PersonIcon from '@mui/icons-material/Person';
 import Link from 'next/link';
 import { Button } from '@mui/material';
+
 const drawerWidth = 260;
+
 
 export default function PermanentDrawerLeft({children}:any) {
   const router = useRouter();
-
+  
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
+      
         <Toolbar>
           {/* <Typography variant="h6" noWrap component="div">
             Permanent drawer
@@ -104,17 +107,22 @@ export default function PermanentDrawerLeft({children}:any) {
 
         
         <div className='border-4 border-black font-serif'>
-          @Math Mind Connect
+          @Math Mind Connecter
         </div>
 
       </Drawer>
       <Box
         component="main"
-        sx={{ bgcolor: 'background.default', p: 0 }}
+        sx={{ bgcolor: 'background.default', height: '100vh', marginTop: -8 }}
       >
         <Toolbar />
+        
+
+        
         {children}
+        
       </Box>
+      
     </Box>
   );
 }
