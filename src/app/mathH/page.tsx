@@ -12,7 +12,7 @@ export default function mathHHome(){
       <div className='flex flex-row px-52 py-12'>
 
 
-    <ForwardOutlinedIcon fontSize='large' viewBox='0 0 24 24' width='40' height='40' className='text-teal-400 mx-10 mt-36'/>
+    <ForwardOutlinedIcon fontSize='large' viewBox='0 0 24 24' width='100' height='100' className='text-teal-400 mx-10 mt-36'/>
     <div className='grid justify-items-center border-teal-400 border-solid border-8 mt-5'>
       <div className='mt-10 flex border-b-8'>
           <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-uqopch" focusable="false" aria-hidden="true" viewBox="0 4 24 24" width="40" height="40" data-testid="EditNoteIcon"><path d="M3 10h11v2H3v-2zm0-2h11V6H3v2zm0 8h7v-2H3v2zm15.01-3.13.71-.71c.39-.39 1.02-.39 1.41 0l.71.71c.39.39.39 1.02 0 1.41l-.71.71-2.12-2.12zm-.71.71-5.3 5.3V21h2.12l5.3-5.3-2.12-2.12z"></path></svg>

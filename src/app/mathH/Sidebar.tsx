@@ -16,7 +16,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import PersonIcon from '@mui/icons-material/Person';
 import Link from 'next/link';
-import { Button } from '@mui/material';
+import { Button, Paper } from '@mui/material';
+import { useState } from 'react';
+import LoadingBar from '@/component/template/LoadingBar';
 
 const drawerWidth = 260;
 
@@ -25,9 +27,9 @@ export default function PermanentDrawerLeft({children}:any) {
   const router = useRouter();
   
   return (
+    <>
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      
         <Toolbar>
           {/* <Typography variant="h6" noWrap component="div">
             Permanent drawer
@@ -53,7 +55,7 @@ export default function PermanentDrawerLeft({children}:any) {
 
         <Divider />
         <Divider />
-        <Divider />
+        
     
         <div className='border-4 border-black px-5 py-5'>
         
@@ -74,28 +76,28 @@ export default function PermanentDrawerLeft({children}:any) {
 
         <Divider />
         <Divider />
-        <Divider />
+
 
         <List className='border-4 border-black px-0 py-10'>
 
-          <ListItem key={1} onClick={()=>router.push('/mathH/first')}>
+          <ListItem key={1} 
+            onClick={()=>router.push('/mathH/first')}
+          >
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
-              1. <br></br>
-              이차방정식과 이차함수의 관계
+               
+              <p className='font-semibold'>1. <br></br>이차방정식과 이차함수의 관계</p>
             {/* </Button>   */}
           </ListItem>
 
           <ListItem key={2} onClick={()=>router.push('/mathH/second')}>
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
-              2. <br></br>
-              이차방정식의 그래프와 직선의 위치관계
+              <p className='font-semibold'>2. <br></br>이차방정식의 그래프와 직선의 위치관계</p>
             {/* </Button>   */}
           </ListItem>
 
           <ListItem key={3} onClick={()=>router.push('/mathH/third')}>
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
-              3. <br></br>
-              이차함수의 최대, 최소
+              <p className='font-semibold'>3. <br></br>이차함수의 최대, 최소</p>
             {/* </Button>   */}
           </ListItem>
 
@@ -103,7 +105,7 @@ export default function PermanentDrawerLeft({children}:any) {
 
         <Divider />
         <Divider />
-        <Divider />
+        
 
         
         <div className='border-4 border-black font-serif'>
@@ -111,18 +113,17 @@ export default function PermanentDrawerLeft({children}:any) {
         </div>
 
       </Drawer>
-      <Box
+      <Paper
         component="main"
-        sx={{ bgcolor: 'background.default', height: '100vh', marginTop: -8 }}
+        sx={{ bgcolor: '#F2F2F2', width: '75%', height: '100vh'}}
       >
         <Toolbar />
         
-
-        
         {children}
         
-      </Box>
+      </Paper>
       
     </Box>
+    </>
   );
 }
