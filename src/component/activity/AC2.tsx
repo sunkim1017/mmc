@@ -20,7 +20,7 @@ export default function AC1() {
       <br/>
       <p>다음은 식사 후 정상인과 당뇨 환자, 예비 당뇨 환자의 혈당 곡선을 나타낸 그래프이다.</p>
       <p>{`세 그래프를 관찰한 후 특징(공통점과 차이점 등)을 생각해보자.`}</p>
-      <Image src='/image/ac2.jpg' alt='' width='400' height='400' className="mt-5 ml-72"/>
+      <Image src='/image/ac2.jpg' alt='' width='350' height='350' className="mt-5 ml-72"/>
       </div>
 
      
@@ -30,8 +30,8 @@ export default function AC1() {
         
         <p className="font-bold">미션 진행률: 10%</p>
         <ProgressBar value={10}/>
-        <div className="absolute" style={{  marginLeft: 900}}><TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity')}/></div>
-        <div className="absolute" style={{  marginLeft: 1000}}><TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/two')}/></div>
+        <div className="absolute" style={{  marginLeft: 800}}><TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity')}/></div>
+        <div className="absolute" style={{  marginLeft: 900}}><TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/two')}/></div>
       </footer>
     </>
   )
