@@ -40,12 +40,10 @@ export default function AC1() {
 
     </div>
     <footer style={{marginLeft: 30}} className="text-black">
-        
+        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/two')}/>
+    </footer>
 
-
-        <div className="absolute" style={{  marginLeft: 800}}><TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/two')}/></div>
-        
-      </footer>
+    
     </>
   )
 }
