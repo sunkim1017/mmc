@@ -28,22 +28,29 @@ export default function AC1() {
         가이드라인 보기
       </Button>
       
-      
-      <Image src='/image/ac3.jpeg' alt='' width='500' height='500' className="mt-5 ml-64"/>
-      
+      <div className="flex justify-between my-10 gap-2">
+      <Image src='/image/ac3.jpeg' alt='' width='500' height='500' className="ml-20"/>
+      <div className="box-border h-60 w-96 p-4 border-black border-4">
+        <p>답안작성</p>
+      </div>
+      </div>
       </div>
       
 
      
 
     </div>
-    <footer style={{marginLeft: 30}} className="text-black">
-        
-        <p className="font-bold">미션 진행률: 20%</p>
-        <ProgressBar value={20}/>
-        <div className="absolute" style={{  marginLeft: 800}}><TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/one')}/></div>
-        <div className="absolute" style={{  marginLeft: 900}}><TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/three')}/></div>
-      </footer>
+   
+
+    <footer className="text-black mt-4">
+    <p className="font-bold">미션 진행률: 20%</p>
+      <ProgressBar value={20} />
+      <div className="flex justify-between">
+        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/one')} />
+        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/three')} />
+      </div>
+      
+    </footer>  
     </>
   )
 }
