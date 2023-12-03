@@ -28,7 +28,10 @@ export default function PermanentDrawerLeft({children}:any) {
   
   return (
     <>
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', 
+      width: '100vw',
+      overflowX: 'auto',
+    }}>
       <CssBaseline />
         <Toolbar>
           {/* <Typography variant="h6" noWrap component="div">
@@ -115,7 +118,12 @@ export default function PermanentDrawerLeft({children}:any) {
       </Drawer>
       <Paper
         component="main"
-        sx={{ bgcolor: '#F2F2F2', width: '75vw', height: '100vh'}}
+        sx={{
+          bgcolor: '#F2F2F2',
+          width: '75%',
+          height: '100vh',
+          overflowX: 'auto', // Add this line to enable overflow
+        }}
       >
         <Toolbar />
         
