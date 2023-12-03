@@ -115,7 +115,7 @@ export default function PermanentDrawerLeft({children}:any) {
       </Drawer>
       <Paper
         component="main"
-        sx={{ bgcolor: '#F2F2F2', width: '75%', height: '100vh'}}
+        sx={{ bgcolor: '#F2F2F2', width: '75vw', height: '100vh'}}
       >
         <Toolbar />
         

@@ -51,7 +51,7 @@ export default function CH() {
       <ProgressBar value={100} />
       <div className="flex justify-between">
         <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/study/four')}/>
-        {/* <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/study')}/> */}
+        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/check/plus')}/>
       </div>
       
     </footer>
