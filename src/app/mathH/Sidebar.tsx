@@ -19,6 +19,7 @@ import Link from 'next/link';
 import { Button, Paper } from '@mui/material';
 import { useState } from 'react';
 import LoadingBar from '@/component/template/LoadingBar';
+import Image from 'next/image';
 
 const drawerWidth = 260;
 
@@ -52,28 +53,29 @@ export default function PermanentDrawerLeft({children}:any) {
         anchor="left"
       >
         {/* <Toolbar /> */}
-        <div className='border-4 border-black'>
-          <h1 className='px-10 py-5 text-4xl text-teal-400'>MathMind<br/>Connecter</h1>
+        <div className='border-4 border-blue-950'>
+          {/* <h1 className='px-10 py-5 text-4xl text-teal-400'>MathMind<br/>Connecter</h1> */}
+          <Image src='/image/격자버전.jpeg' alt='' width='300' height='60'></Image>
         </div>
 
         <Divider />
         <Divider />
         
     
-        <div className='border-4 border-black px-5 py-5'>
+        <div className='border-4 border-blue-950 px-5 py-5 text-blue-950 font-bold' style={{backgroundColor: "#c6e7a4"}}>
         
           <PersonIcon fontSize='large'/>
-          <Typography>사용자명: 나힘내</Typography>
-          <Typography>학년: 고등 1</Typography>
+          <p>사용자명: 나힘내</p>
+          <p>학년: 고등 1</p>
 
           <br/>
           <br/>
 
-          <Typography className='text-sm'>출석률: </Typography>
+          <Typography className='text-sm text-blue-950 '>출석률: </Typography>
           <br/>
-          <Typography className='text-sm'>이해도: </Typography>
+          <Typography className='text-sm text-blue-950 '>이해도: </Typography>
           <br/>
-          <Typography className='text-sm'>정답률: </Typography>
+          <Typography className='text-sm text-blue-950 '>정답률: </Typography>
           
         </div>
 
@@ -81,26 +83,26 @@ export default function PermanentDrawerLeft({children}:any) {
         <Divider />
 
 
-        <List className='border-4 border-black px-0 py-10'>
+        <List className='border-4 border-blue-950 px-0 py-10' style={{backgroundColor: "#c6e7a4"}}>
 
           <ListItem key={1} 
             onClick={()=>router.push('/mathH/first')}
           >
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
                
-              <p className='font-semibold'>1. <br></br>이차방정식과 이차함수의 관계</p>
+              <p className='font-semibold text-blue-950 '>1. <br></br>이차방정식과 이차함수의 관계</p>
             {/* </Button>   */}
           </ListItem>
 
           <ListItem key={2} onClick={()=>router.push('/mathH/second')}>
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
-              <p className='font-semibold'>2. <br></br>이차방정식의 그래프와 직선의 위치관계</p>
+              <p className='font-semibold text-blue-950'>2. <br></br>이차방정식의 그래프와 직선의 위치관계</p>
             {/* </Button>   */}
           </ListItem>
 
           <ListItem key={3} onClick={()=>router.push('/mathH/third')}>
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
-              <p className='font-semibold'>3. <br></br>이차함수의 최대, 최소</p>
+              <p className='font-semibold text-blue-950'>3. <br></br>이차함수의 최대, 최소</p>
             {/* </Button>   */}
           </ListItem>
 
@@ -111,7 +113,7 @@ export default function PermanentDrawerLeft({children}:any) {
         
 
         
-        <div className='border-4 border-black font-serif'>
+        <div className='border-4 border-blue-950 font-serif text-blue-950' style={{backgroundColor: "#c6e7a4"}}>
           @Math Mind Connecter
         </div>
 
@@ -119,6 +121,7 @@ export default function PermanentDrawerLeft({children}:any) {
       <Paper
         component="main"
         sx={{
+          marginTop: 7,
           bgcolor: '#F2F2F2',
           width: '75%',
           height: '100vh',
