@@ -1,10 +1,10 @@
-import AC3G from "@/component/activity/AC3G";
+import AC2G from "@/component/activity/AC2G";
 
 export default function ActivityPage() {
   
   return (
     <>
-      <AC3G></AC3G>
+      <AC2G></AC2G>
     </>
   )
 }

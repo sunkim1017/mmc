@@ -7,8 +7,9 @@ import { TiArrowForward } from "react-icons/ti";
 import { useRouter } from "next/navigation";
 import { BsPencil } from "react-icons/bs";
 import Image from "next/image";
+import { Box, Button } from "@mui/material";
 
-export default function AC1() {
+export default function AC2() {
   const router = useRouter();
   return (
     <>
@@ -16,29 +17,40 @@ export default function AC1() {
       <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`<Mission 1> 주어진 혈당그래프에서 이차함수를 찾아라!`}</p>
     
       <div className="px-10 py-5">
-      <h1 className="flex flex-between text-lg font-bold"><BsPencil size={25}/>  생각열기</h1>
+      <h1 className="flex flex-between text-lg font-bold"><BsPencil size={25}/>  활동1</h1>
       <br/>
-      <p>다음은 식사 후 정상인과 당뇨 환자, 예비 당뇨 환자의 혈당 곡선을 나타낸 그래프이다.</p>
-      <p>{`세 그래프를 관찰한 후 특징(공통점과 차이점 등)을 생각해보자.`}</p>
-      <Image src='/image/ac2.jpg' alt='' width='350' height='350' className="mt-5 ml-72"/>
+      <p>알지오매스를 활용하여 다음 시간-혈당 그래프에서 이차함수의 형태와 유사한 구간을 설정해보자</p>
+      <Button
+        onClick={()=>router.push('mathH/first/activity/two/guide')}
+        variant="outlined"
+        color='inherit'
+      >
+        가이드라인 보기
+      </Button>
+      
+      <div className="flex justify-between my-10 gap-2">
+      <Image src='/image/ac3.jpeg' alt='' width='500' height='500' className="ml-20"/>
+      <div className="box-border h-60 w-96 p-4 border-black border-4">
+        <p>답안작성</p>
       </div>
+      </div>
+      </div>
+      
 
      
 
     </div>
-
+   
 
     <footer className="text-black mt-4">
-    <p className="font-bold">미션 진행률: 10%</p>
-      <ProgressBar value={10} />
+    <p className="font-bold">미션 진행률: 20%</p>
+      <ProgressBar value={20} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity')} />
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/two')} />
+        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/one')} />
+        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/three')} />
       </div>
       
-    </footer>
+    </footer>  
     </>
-
-    
   )
 }
