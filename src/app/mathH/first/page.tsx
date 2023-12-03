@@ -20,12 +20,16 @@ export default function FirstPage(){
         </div>
 
         <div>
-          <PiTreeBold size={180}/>
+          <PiTreeBold size={180}
+            onClick={()=> {
+              router.push(`/mathH/first/study`)}}/>
           <p className="text-2xl ml-14 mt-5 font-semibold">학습하기</p>
         </div>
 
         <div>
-          <GiFallingLeaf size={170}/>
+          <GiFallingLeaf size={170}
+            onClick={()=> {
+            router.push(`/mathH/first/check`)}}/>
           <p className="text-2xl ml-14 mt-7 font-semibold">확인하기</p>
         </div>
 

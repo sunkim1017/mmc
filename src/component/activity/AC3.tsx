@@ -43,7 +43,7 @@ export default function AC3() {
       <ProgressBar value={20} />
       <div className="flex justify-between">
         <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/two')}/>
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/four')}/>
+        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/study')}/>
       </div>
       
     </footer>
