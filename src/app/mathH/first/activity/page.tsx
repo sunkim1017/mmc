@@ -1,11 +1,11 @@
 'use client'
-import AC1 from "@/component/activity/AC1";
+import AC0 from "@/component/activity/AC0";
 
 export default function ActivityPage() {
   
   return (
     <>
-      <AC1></AC1>
+      <AC0></AC0>
     </>
   )
 }

@@ -11,7 +11,7 @@ export default function FirstPage(){
   return (
     <>
       <h1 className="text-xl mt-5">1. 이차방정식과 이차함수의 관계</h1>
-      <div className="flex justify-between gap-16 mx-40 my-14">
+      <div className="flex justify-between gap-16 mx-40 my-20">
         <div>
           <LiaSeedlingSolid size={200} 
             onClick={()=> {
