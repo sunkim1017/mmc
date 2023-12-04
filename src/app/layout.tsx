@@ -14,6 +14,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'MMC',
   description: 'Math Mind Connecter',
+  icons: {
+    icon: '/image/격자버전.jpeg'
+  }
 }
 
 export default function RootLayout({
