@@ -28,7 +28,8 @@ export default function ST2G() {
         <Image src='/image/s2.png' alt='' width='300' height='250' className="mt-5 ml-10"/>
         <div>
 
-        <p className="mt-20 ml-10">{`해설) y=3/5(x-1)^2-1의 그래프와 유사하다!`}</p>
+        {/* <p className="mt-20 ml-10">{`해설) y=3/5(x-1)^2-1의 그래프와 유사하다!`}</p> */}
+        <p className="mt-20 ml-10">해설) y=3/5(x-1)<sup>2</sup>-1의 그래프와 유사하다!</p>
           <br/>
           <p className="mt-20 ml-10">{`<--예시자료`}</p>          
         </div>
@@ -45,7 +46,7 @@ export default function ST2G() {
 
     <footer className="text-black mt-4">
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/study/two')} />
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/two')} />
         
       </div>
       

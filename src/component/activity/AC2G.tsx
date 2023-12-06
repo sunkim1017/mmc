@@ -40,7 +40,7 @@ export default function AC2G() {
 
     </div>
     <footer style={{marginLeft: 30}} className="text-black">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/two')}/>
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/activity/two')}/>
     </footer>
 
     

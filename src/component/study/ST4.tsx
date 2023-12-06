@@ -7,6 +7,7 @@ import { TiArrowForward } from "react-icons/ti";
 import { useRouter } from "next/navigation";
 import { RiChat1Line } from "react-icons/ri";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from "next/link";
 
 export default function ST0() {
   const router = useRouter();
@@ -31,11 +32,14 @@ export default function ST0() {
 
     <div className="flex items-center translate-x-40">
       <FaLongArrowAltRight size={100}/>
-      <RiChat1Line size={300} onClick={() => router.push('/mathH/first/check')}/>
-      <div className="text-center z-10 -translate-x-52 -translate-y-2  text-black text-2xl font-bold">
+      <Link className='cursor-pointer' href='/mathH/first/check'>
+      <RiChat1Line  size={300} 
+      />
+      <div className="text-center z-10 -translate-y-48  text-black text-2xl font-bold">
         <p>{`학습한`}</p>
         <p>{`개념 정리하기`}</p>
       </div>
+      </Link>
     </div>
     </div>
     
@@ -45,8 +49,8 @@ export default function ST0() {
     <p className="font-bold">미션 진행률: 100%</p>
     <ProgressBar value={100} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={() => router.push('/mathH/first/study/three')} />
-        <TiArrowForward size={100} onClick={() => router.push('/mathH/first/check')} />
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/study/three')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/check')} />
         
       </div>
       

@@ -50,8 +50,8 @@ export default function CH() {
       <p className="font-bold">미션 진행률: 100%</p>
       <ProgressBar value={100} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/study/four')}/>
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/check/plus')}/>
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/four')}/>
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/check/plus')}/>
       </div>
       
     </footer>

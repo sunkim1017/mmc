@@ -46,8 +46,8 @@ export default function AC2() {
     <p className="font-bold">미션 진행률: 20%</p>
       <ProgressBar value={20} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/one')} />
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/activity/three')} />
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/activity/one')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/activity/three')} />
       </div>
       
     </footer>  

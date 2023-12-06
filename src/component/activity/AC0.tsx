@@ -35,8 +35,8 @@ export default function AC0() {
     <p className="font-bold">미션 진행률: 0%</p>
     <ProgressBar value={0} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={() => router.push('/mathH/first/activity')} />
-        <TiArrowForward size={100} onClick={() => router.push('/mathH/first/activity/one')} />
+        <TiArrowBack className="cursor-pointer"   size={100} onClick={() => router.push('/mathH/first/activity')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/activity/one')} />
       </div>
       
     </footer>

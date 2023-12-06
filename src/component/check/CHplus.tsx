@@ -22,9 +22,10 @@ export default function CHplus() {
       <div className="flex justify-start">
         
       <Button
+        className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
         size="large"
         variant="outlined"
-        style={{backgroundColor: "#F2F5A9", color: "#B45F04", borderColor: "#B45F04"}}
+        style={{ color: "#B45F04", borderColor: "#B45F04"}}
       >
         <Link href={'https://teacher.desmos.com/collection/5f36d2d2aa4e5b25271935dd?r=w.hd&lang=ko&collections=featured-collections'}>
         <p className="font-extrabold text-xl">데스모스</p>
@@ -37,9 +38,10 @@ export default function CHplus() {
 
       <div className="flex justify-start">
       <Button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
           size="large"
           variant="outlined"
-          style={{backgroundColor: "#F2F5A9", color: "#B45F04", borderColor: "#B45F04"}}
+          style={{ color: "#B45F04", borderColor: "#B45F04"}}
           >
         <Link href={"https://www.algeomath.kr/algeo/tutorial/8/view.do?sortName=CONT"}>
         <p className="font-extrabold text-xl">알지오매스</p>
@@ -61,8 +63,8 @@ export default function CHplus() {
       <p className="font-bold">미션 진행률: 100%</p>
       <ProgressBar value={100} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/check')}/>
-        {/* <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/study')}/> */}
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/check')}/>
+        {/* <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study')}/> */}
       </div>
       
     </footer>

@@ -35,8 +35,8 @@ export default function ST0() {
     <p className="font-bold">미션 진행률: 45%</p>
     <ProgressBar value={45} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={() => router.push('/mathH/first/activity/three')} />
-        <TiArrowForward size={100} onClick={() => router.push('/mathH/first/study/one')} />
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/activity/three')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/study/one')} />
       </div>
       
     </footer>

@@ -42,8 +42,8 @@ export default function AC3() {
       <p className="font-bold">미션 진행률: 35%</p>
       <ProgressBar value={20} />
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/activity/two')}/>
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/study')}/>
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/activity/two')}/>
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study')}/>
       </div>
       
     </footer>

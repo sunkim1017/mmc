@@ -14,6 +14,7 @@ export default function FirstPage(){
       <div className="flex justify-between gap-16 py-10 px-5">
         <div>
           <LiaSeedlingSolid size={200} 
+            className="cursor-pointer"
             onClick={()=> {
               router.push(`/mathH/first/activity`)}}/>
           <p className="text-2xl ml-14 font-semibold">활동하기</p>
@@ -21,6 +22,7 @@ export default function FirstPage(){
 
         <div>
           <PiTreeBold size={180}
+          className="cursor-pointer"
             onClick={()=> {
               router.push(`/mathH/first/study`)}}/>
           <p className="text-2xl ml-14 mt-5 font-semibold">학습하기</p>
@@ -28,6 +30,7 @@ export default function FirstPage(){
 
         <div>
           <GiFallingLeaf size={170}
+          className="cursor-pointer"
             onClick={()=> {
             router.push(`/mathH/first/check`)}}/>
           <p className="text-2xl ml-14 mt-7 font-semibold">확인하기</p>
