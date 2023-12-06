@@ -47,7 +47,7 @@ export default function ST1G() {
     <footer className="text-black mt-4">
   
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/study/one')} />
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/one')} />
   
       </div>
       

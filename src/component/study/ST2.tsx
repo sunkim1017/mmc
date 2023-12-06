@@ -49,8 +49,8 @@ export default function ST2() {
       <ProgressBar value={75} />
     
       <div className="flex justify-between">
-      <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/study/one')} />
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/study/three')} />     </div>
+      <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/one')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/three')} />     </div>
       
     </footer>
     </>

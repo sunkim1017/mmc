@@ -42,8 +42,8 @@ export default function ST3G2() {
 
     <footer className="text-black mt-4">
       <div className="flex justify-between">
-        <TiArrowBack size={100} onClick={()=>router.push('/mathH/first/study/three/guide')} />
-        <TiArrowForward size={100} onClick={()=>router.push('/mathH/first/study/three/guide/two')}/> 
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/three/guide')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/three/guide/two')}/> 
       </div>
       
     </footer>

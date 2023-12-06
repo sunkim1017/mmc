@@ -90,7 +90,7 @@ export default function PermanentDrawerLeft({children}:any) {
           >
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
                
-              <p className='font-semibold text-blue-950 '>1. <br></br>이차방정식과 이차함수의 관계</p>
+              <p className='cursor-pointer font-semibold text-blue-950 '>1. <br></br>이차방정식과 이차함수의 관계</p>
             {/* </Button>   */}
           </ListItem>
 
