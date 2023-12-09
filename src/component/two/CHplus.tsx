@@ -81,6 +81,19 @@ export default function CHplus() {
         </Button>
         
       </div>
+
+      <div className="flex justify-start">
+      <Button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          size="large"
+          variant="outlined"
+          style={{ color: "#B45F04", borderColor: "#B45F04"}}
+          >
+        <p className="font-extrabold text-lg">더 많은 문제 풀기</p>
+        </Button>
+      </div>
+
+
       </div>
       </div>
 
