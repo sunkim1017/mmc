@@ -22,10 +22,9 @@ export default function CHplus() {
       <div className="flex justify-start">
         
       <Button
-        className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+        className="hover:bg-yellow-200 hover:border-yellow-800 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700"
         size="large"
         variant="outlined"
-        style={{ color: "#B45F04", borderColor: "#B45F04"}}
       >
         <Link href={'https://teacher.desmos.com/collection/5f36d2d2aa4e5b25271935dd?r=w.hd&lang=ko&collections=featured-collections'}>
         <p className="font-extrabold text-xl">데스모스</p>
@@ -38,10 +37,9 @@ export default function CHplus() {
 
       <div className="flex justify-start">
       <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
           size="large"
           variant="outlined"
-          style={{ color: "#B45F04", borderColor: "#B45F04"}}
           >
         <Link href={"https://www.algeomath.kr/algeo/tutorial/8/view.do?sortName=CONT"}>
         <p className="font-extrabold text-xl">알지오매스</p>
@@ -53,10 +51,9 @@ export default function CHplus() {
       
       <div className="flex justify-start">
       <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
           size="large"
           variant="outlined"
-          style={{ color: "#B45F04", borderColor: "#B45F04"}}
           >
         <Link href={"https://www.ebsi.co.kr/ebs/lms/player/retrieveLmsPlayerHtml5.ebs?sbjtapplyId=&sbjtId=S20230000448&lessonId=LS100030043035&lecGbn=V1M4"}>
         <p className="font-extrabold text-xl">EBS 강의</p>
@@ -68,10 +65,9 @@ export default function CHplus() {
 
       <div className="flex justify-start">
       <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
           size="large"
           variant="outlined"
-          style={{ color: "#B45F04", borderColor: "#B45F04"}}
           >
         <Link href={"https://www.youtube.com/watch?v=tlGVMth0yzk"}>
         <p className="font-extrabold text-xl">유튜브 강의</p>
@@ -83,10 +79,9 @@ export default function CHplus() {
 
       <div className="flex justify-start">
       <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
           size="large"
           variant="outlined"
-          style={{ color: "#B45F04", borderColor: "#B45F04"}}
           >
         <p className="font-extrabold text-lg">더 많은 문제 풀기</p>
         </Button>

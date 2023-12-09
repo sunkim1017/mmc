@@ -29,7 +29,7 @@ export default function AC2() {
       </Button>
       
       <div className="flex justify-between my-10 gap-2">
-      <Image src='/image/ac3.jpeg' alt='' width='500' height='500' className="ml-20"/>
+      <Image priority src='/image/ac3.jpeg' alt='' width='500' height='500' className="ml-20"/>
       <div className="box-border h-60 w-96 p-4 border-black border-4">
         <p>답안작성</p>
       </div>

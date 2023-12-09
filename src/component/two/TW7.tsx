@@ -27,7 +27,7 @@ export default function TW5() {
       
       
       <div className='justify-center flex gap-5 mt-5'>
-        <Image src='/image/tw7.png' alt='' width={400} height={100} />
+        <Image src='/image/tw7.png' alt='' width={400} height={100} priority/>
       <div className="box-border h-56 w-10/12 p-4 border-black border-4 my-10 ">
         <p>답안작성</p>
       </div>

@@ -23,11 +23,12 @@ export default function TWO (){
       <p>지난 시간에 무엇을</p>
       <p>배웠을까?</p>
     </div>
-    <Image src={'/image/T0.png'} alt='' width={300}
+    <Image priority src={'/image/T0.png'} alt='' width={300}
         height={300} className="mt-4"/>
     </div>
 
       <Image
+        priority
         src={'/image/s5.png'}
         alt=''
         width={500}
@@ -45,6 +46,7 @@ export default function TWO (){
     </div>
 
     <Image
+        priority
         src={'/image/t1.png'}
         alt=''
         width={500}
@@ -57,6 +59,7 @@ export default function TWO (){
 
     <section className='translate-x-10 translate-y-10'>
     <Image
+        priority
         src={'/image/t2.png'}
         alt=''
         width={150}
