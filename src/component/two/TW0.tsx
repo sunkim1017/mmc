@@ -67,7 +67,7 @@ export default function TWO (){
 
     <footer className="text-black mt-4">
     <p className="font-bold">미션 진행률: 10%</p>
-    <ProgressBar value={0} />
+    <ProgressBar value={10} />
       <div className="flex justify-end">
         {/* <TiArrowBack className="cursor-pointer"   size={100} onClick={() => router.push('/mathH/first/activity')} /> */}
         <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/second/M1/one')} />

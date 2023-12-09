@@ -32,7 +32,7 @@ export default function TW10() {
 
     <div className="flex items-center translate-x-40">
       <FaLongArrowAltRight size={100}/>
-      <Link className='cursor-pointer' href='/mathH/first/check'>
+      <Link className='cursor-pointer' href='/mathH/second/CH/one'>
       <RiChat1Line  size={300} 
       />
       <div className="text-center z-10 -translate-y-48  text-black text-2xl font-bold">
@@ -49,8 +49,8 @@ export default function TW10() {
     <p className="font-bold">미션 진행률: 100%</p>
     <ProgressBar value={100} />
       <div className="flex justify-between">
-        <TiArrowBack className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/study/three')} />
-        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/first/check')} />
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/second/M3/four')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/second/CH/one')} />
         
       </div>
       

@@ -15,19 +15,18 @@ export default function TW5() {
   return (
     <>
     <div className="relative">
-      <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`<Mission 1> 아군기를 지켜라: 적의 포탄을 피해라!`}</p>
+      <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`<Mission 4>_비교하기`}</p>
     
       <div className="px-10 py-5">
-      <h1 className="flex flex-between text-lg font-bold"><BsPencil size={25}/> 활동 1</h1>
+      {/* <h1 className="flex flex-between text-lg font-bold"><BsPencil size={25}/> 활동 1</h1> */}
       <br/>
-      <p>아군 비행기(파란색)가 포탄을 피해서 비행하려 한다. 포탄은 f(x)와 같이 포물선으로 움직이고,  </p>
-      <p>아군 비행기는 g(x)와 같이 직선으로 움직인다고 할때, a의 값의 범위를 구하여라.</p>
+      <p>활동 1~3을 바탕으로 비행기의 높이에 따라 D의 값이 어떻게 변화하는지 확인해보자.</p>
   
 
       
       
       <div className='justify-center flex gap-5 mt-5'>
-        <Image src='/image/t3.png' alt='' width={400} height={100} />
+        <Image src='/image/tw8.png' alt='' width={400} height={100} />
       <div className="box-border h-56 w-10/12 p-4 border-black border-4 my-10 ">
         <p>답안작성</p>
       </div>
@@ -43,12 +42,12 @@ export default function TW5() {
 
 
     <footer className="text-black mt-4">
-    <p className="font-bold">미션 진행률: 20%</p>
-      <ProgressBar value={20} />
+    <p className="font-bold">미션 진행률: 75%</p>
+      <ProgressBar value={75} />
     
       <div className="flex justify-between">
-      <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/M1/one')} />
-        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/M2/one')} />     </div>
+      <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/M3/two')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/M3/four')} />     </div>
       
     </footer>
     </>

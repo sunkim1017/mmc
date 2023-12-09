@@ -48,7 +48,7 @@ export default function TW3() {
     
       <div className="flex justify-between">
       <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/M1/one')} />
-        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/M2/one')} />     </div>
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/M2/one')} />     </div>
       
     </footer>
     </>

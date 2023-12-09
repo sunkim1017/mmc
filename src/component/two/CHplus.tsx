@@ -49,8 +49,38 @@ export default function CHplus() {
         </Link>
         </Button>
       </div>
+
       </div>
       
+      <div className="flex justify-start">
+      <Button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          size="large"
+          variant="outlined"
+          style={{ color: "#B45F04", borderColor: "#B45F04"}}
+          >
+        <Link href={"https://www.ebsi.co.kr/ebs/lms/player/retrieveLmsPlayerHtml5.ebs?sbjtapplyId=&sbjtId=S20230000448&lessonId=LS100030043036&lecGbn=V1M4"}>
+        <p className="font-extrabold text-xl">EBS 강의</p>
+        {/* <p className="font-extrabold text-xl">{`(ALGEOMATH)`}</p> */}
+        </Link>
+        </Button>
+        
+      </div>
+
+      <div className="flex justify-start">
+      <Button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md"
+          size="large"
+          variant="outlined"
+          style={{ color: "#B45F04", borderColor: "#B45F04"}}
+          >
+        <Link href={"https://www.youtube.com/watch?v=Kvg5-HGawkE"}>
+        <p className="font-extrabold text-xl">유튜브 강의</p>
+        {/* <p className="font-extrabold text-xl">{`(ALGEOMATH)`}</p> */}
+        </Link>
+        </Button>
+        
+      </div>
       </div>
       </div>
 

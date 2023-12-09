@@ -17,25 +17,26 @@ export default function TW2() {
 
     {/* Mission Text and TbChalkboard */}
     <div className="flex items-center py-52">
-      <div className="z-0 absolute -translate-x-44 translate-y-3">
+      <div className="z-0 absolute -translate-x-40 translate-y-3">
         <TbChalkboard size={550} />
       </div>
       <div className="text-center z-10 text-black text-3xl font-bold">
-        <p>{`<Mission 1>`}</p>
-        <p>{`아군기를 지켜라!`}</p>
+        <p>{`<Mission 3>`}</p>
+        <p>{`적기를 포격하라 (2)`}</p>
       </div>
     </div>
+
 
     {/* Footer */}
     
   </div>
 
     <footer className="text-black mt-4">
-    <p className="font-bold">미션 진행률: 15%</p>
+    <p className="font-bold">미션 진행률: 55%</p>
     <ProgressBar value={0} />
       <div className="flex justify-between">
-        <TiArrowBack className="cursor-pointer"   size={100} onClick={() => router.push('/mathH/second')} />
-        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/second/M1/two')} />
+        <TiArrowBack className="cursor-pointer"   size={100} onClick={() => router.push('/mathH/second/M2/two')} />
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/second/M3/two')} />
       </div>
       
     </footer>

@@ -15,30 +15,32 @@ export default function CH() {
   return (
     <>
     <div className="relative">
-      <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`<Mission 3> 학습한 개념을 정리해볼까요?`}</p>
+      <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`학습한 개념을 정리해볼까요?`}</p>
 
       <div className="flex justify-center">
-        <Image src='/image/s5.png' alt='' width='500' height='450' className="mt-5 ml-10"/>
+        <Image src='/image/ch.png' alt='' width='400' height='200' className="mt-5 ml-10 h-56"/>
         <div className='ml-10 flex items-center'>
           <div>
-          <IoChatbubbleOutline size={160} className="text-orange-200"/>
-          <div className="text-center text-orange-500 z-10 -translate-x-0 -translate-y-28 text-xl font-bold">
-          <p>{`교과서`}</p>
-          <p>{`60~61쪽`}</p>
-          </div>
-
-          <div className='justify-center flex'>
-          <div className="text-center box-border bg-orange-500 text-white font-bold py-3 px-5 rounded-lg ">
-            <p>이차방정식과</p>
-            <p>이차함수의 관계</p>
-          </div>
+          <IoChatbubbleOutline size={190} className="text-orange-200"/>
+          <div className="text-center text-orange-500 z-10 -translate-x-0 -translate-y-32 text-xl font-bold">
+          <p>{`수학(상) 교과서`}</p>
+          <p>{`(신사고)62~63쪽`}</p>
           </div>
         </div>
         </div>
+        <Image className="ml-10 h-56"
+        src={'/image/ch2.jpeg'}
+        alt=''
+        width={140}
+        height={100}
+      />
       </div>
       <div className="grid justify-center">
-      <p className="mt-10 font-bold text-xl">이차함수 y=ax<sup>2</sup>+bx+c의 그래프와 x축의 교점의 x자표는 이차방정식 ax<sup>2</sup>+bx+c=0의 실근과 같다.</p>
-      <p className="font-bold text-xl">{`--> 이차방정식의 실근의 개수에 따라 이차함수가 x축과 만나는 점의 개수가 달라진다.`}</p>
+      <p className="mt-10 font-bold text-xl">
+        이차함수 y=ax<sup>2</sup>+bx+c의 그래프와 직선 y=mx+n은 두 점에서 만나거나, 한 점에서 만나거나, 만나지 않는다.</p>
+      <p className="font-bold text-xl">
+        이 두 그래프의 교점은 ax<sup>2</sup>+bx+c=mx+n으로 구할 수 있고, 이 이차방정식의 실근의 개수가 바로 교점의 개수가 된다. </p>
+      <p className="font-bold text-xl">따라서 이 방정식의 실근의 개수에 따라 직선과 이차함수가 만나는 점의 개수가 달라진다.</p>
       </div>
 
       
@@ -50,8 +52,8 @@ export default function CH() {
       <p className="font-bold">미션 진행률: 100%</p>
       <ProgressBar value={100} />
       <div className="flex justify-between">
-        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study/four')}/>
-        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/check/plus')}/>
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/CH')}/>
+        <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/CH/plus')}/>
       </div>
       
     </footer>
