@@ -20,8 +20,10 @@ export default function ST3() {
       <div className="px-10 py-5">
       <h1 className="flex flex-between text-lg font-bold"><BsPencil size={25}/>  활동 3</h1>
       <br/>
-      <p>활동 1에서 찾은 그래프와 활동 2에서 찾은 이차함수 식을 이용하여,</p>
-      <p>혈당 최고치에서 공복혈당으로 돌아올 때까지 시간이 얼마나 걸리는지 구해보자.</p>
+      <p>활동2에서 찾은 이차함수 식에서 혈당이 공복혈당 수치가 되는 두 시점을 찾고, 두 시점 간 간격을 구하여라.</p>
+      <p>활동1,2에서 찾은 그래프와 식을 통해 공복혈당수치에서 혈당최고치까지 이르는 시간과 혈당최고치에서 공복혈당수치까지 이르는 시간을 구해보고 비교해보자</p>
+
+      {/* <p>혈당 최고치에서 공복혈당으로 돌아올 때까지 시간이 얼마나 걸리는지 구해보자.</p> */}
       <Button
         onClick={()=>router.push('mathH/first/study/three/guide')}
         variant="outlined"

@@ -96,7 +96,7 @@ export default function PermanentDrawerLeft({children}:any) {
 
           <ListItem key={2} onClick={()=>router.push('/mathH/second')}>
             {/* <Button variant='outlined' onClick={()=>router.push('/')}> */}
-              <p className='font-semibold text-blue-950'>2. <br></br>이차방정식의 그래프와 직선의 위치관계</p>
+              <p className='cursor-pointer font-semibold text-blue-950'>2. <br></br>이차방정식의 그래프와 직선의 위치관계</p>
             {/* </Button>   */}
           </ListItem>
 

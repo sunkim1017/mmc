@@ -35,8 +35,8 @@ export default function mathHLayout({
     <PermanentDrawerLeft>
       {/* <div style={{display: 'contents'}}> */}
     <p className='text-black -mt-10 px-10'>{`(1) 고 1 수학 (상)`}</p>
-    <h2 className='text-4xl px-10 font-extrabold text-black text-left'>이차함수와 이차방정식</h2>
-    <main className='px-10 text-black'>
+    {/* <h2 className='text-4xl px-10 font-extrabold text-black text-left'>이차함수와 이차방정식</h2> */}
+    <main className=' text-black'>
     {children}
     </main>
     {/* </div> */}

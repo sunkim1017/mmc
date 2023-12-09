@@ -28,7 +28,7 @@ export default function CH() {
           </div>
 
           <div className='justify-center flex'>
-          <div className="text-center box-border bg-orange-500 text-white text-bold py-3 px-5 rounded-lg ">
+          <div className="text-center box-border bg-orange-500 text-white font-bold py-3 px-5 rounded-lg ">
             <p>이차방정식과</p>
             <p>이차함수의 관계</p>
           </div>
