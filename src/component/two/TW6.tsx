@@ -33,7 +33,7 @@ export default function TW2() {
 
     <footer className="text-black mt-4">
     <p className="font-bold">미션 진행률: 55%</p>
-    <ProgressBar value={0} />
+    <ProgressBar value={55} />
       <div className="flex justify-between">
         <TiArrowBack className="cursor-pointer"   size={100} onClick={() => router.push('/mathH/second/M2/two')} />
         <TiArrowForward  className="cursor-pointer"  size={100} onClick={() => router.push('/mathH/second/M3/two')} />
