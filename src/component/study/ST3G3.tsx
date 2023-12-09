@@ -25,7 +25,7 @@ export default function ST3G3() {
       
       
       <div className="flex justify-center ">
-        <Image src='/image/s4.png' alt='' width='450' height='450' className="mt-5 ml-10"/>
+        <Image priority src='/image/s4.png' alt='' width='450' height='450' className="mt-5 ml-10"/>
         
       </div>
       <p className="mt-5">{`해설) 점 G에서 공복혈당으로 돌아오는 데 걸리는 시간을 구하려면 이차함수와 y=-1의 교점을 찾아 그 점과 점G의 x좌표값 차이를 계산하면 된다.`}</p>

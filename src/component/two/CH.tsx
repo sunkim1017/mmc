@@ -18,7 +18,7 @@ export default function CH() {
       <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`학습한 개념을 정리해볼까요?`}</p>
 
       <div className="flex justify-center">
-        <Image src='/image/ch.png' alt='' width='400' height='200' className="mt-5 ml-10 h-56"/>
+        <Image priority src='/image/ch.png' alt='' width='400' height='200' className="mt-5 ml-10 h-56"/>
         <div className='ml-10 flex items-center'>
           <div>
           <IoChatbubbleOutline size={190} className="text-orange-200"/>
@@ -28,7 +28,7 @@ export default function CH() {
           </div>
         </div>
         </div>
-        <Image className="ml-10 h-56"
+        <Image priority className="ml-10 h-56"
         src={'/image/ch2.jpeg'}
         alt=''
         width={140}

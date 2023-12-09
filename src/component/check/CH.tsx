@@ -18,7 +18,7 @@ export default function CH() {
       <p className="mt-5 text-3xl text-blue-950 font-semibold text-left">{`<Mission 3> 학습한 개념을 정리해볼까요?`}</p>
 
       <div className="flex justify-center">
-        <Image src='/image/s5.png' alt='' width='500' height='450' className="mt-5 ml-10"/>
+        <Image priority src='/image/s5.png' alt='' width='500' height='450' className="mt-5 ml-10"/>
         <div className='ml-10 flex items-center'>
           <div>
           <IoChatbubbleOutline size={160} className="text-orange-200"/>

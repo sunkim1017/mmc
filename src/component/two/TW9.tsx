@@ -27,7 +27,7 @@ export default function TW5() {
       
       
       <div className='justify-center flex mt-5'>
-        <Image src='/image/tw9.png' alt='' width={500} height={100} />
+        <Image src='/image/tw9.png' alt='' width={500} height={100} priority/>
       </div>
 
 

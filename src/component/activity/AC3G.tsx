@@ -25,7 +25,7 @@ export default function AC3G() {
 
 
       <div className="flex flex-between ">
-        <Image src='/image/3.png' alt='' width='250' height='250' className="mt-5 ml-10"/>
+        <Image priority src='/image/3.png' alt='' width='250' height='250' className="mt-5 ml-10"/>
         <div>
 
         {/* <p className="mt-20 ml-10">{`해설) y=-x^2 + 1의 그래프와 유사하다!`}</p> */}

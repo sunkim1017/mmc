@@ -23,7 +23,7 @@ export default function AC2G() {
       <p>3. {`그래프와 x축, y축과의 교점 체크하기(교점의 좌표는 자연수가 되도록 해보자!)`}</p>
 
       <div className="flex flex-between ">
-        <Image src='/image/ac3g.png' alt='' width='250' height='250' className="mt-5 ml-10"/>
+        <Image priority src='/image/ac3g.png' alt='' width='250' height='250' className="mt-5 ml-10"/>
         <div>
 
           <p className="mt-20 ml-10">{`해설) 정상인 그래프를 위와 같이 좌표평면 위에 위치시켰을 때 x가 -1부터 1까지인 구간은 이차함수와 유사한 형태다. 또 x, y축과의 교점을 자연수로 표현하면 대략 B(-1,0), C(1,0), D(0,1)이라고 볼 수 있다.`}</p>

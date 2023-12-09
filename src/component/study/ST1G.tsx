@@ -25,7 +25,7 @@ export default function ST1G() {
       
       
       <div className="flex flex-between ">
-        <Image src='/image/s1.png' alt='' width='300' height='250' className="mt-5 ml-10"/>
+        <Image priority src='/image/s1.png' alt='' width='300' height='250' className="mt-5 ml-10"/>
         <div>
 
         

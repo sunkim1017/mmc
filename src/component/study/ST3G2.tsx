@@ -25,7 +25,7 @@ export default function ST3G2() {
       
       
       <div className="flex justify-center ">
-        <Image src='/image/s3.png' alt='' width='400' height='250' className="mt-5 ml-10"/>
+        <Image priority src='/image/s3.png' alt='' width='400' height='250' className="mt-5 ml-10"/>
         <div>
 
         </div>
