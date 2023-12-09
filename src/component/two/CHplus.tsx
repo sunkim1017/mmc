@@ -1,15 +1,11 @@
 'use client'
 
 import ProgressBar from "@/component/PercentageBar";
-import { TbChalkboard } from "react-icons/tb";
 import { TiArrowBack } from "react-icons/ti";
-import { TiArrowForward } from "react-icons/ti";
 import { useRouter } from "next/navigation";
-import { BsPencil } from "react-icons/bs";
-import Image from "next/image";
 import { Box, Button } from "@mui/material";
-import { IoChatbubbleOutline } from "react-icons/io5";
 import Link from "next/link";
+
 
 export default function CHplus() {
   const router = useRouter();
@@ -21,71 +17,61 @@ export default function CHplus() {
       <div className='flex justify-start gap-14 px-14 py-10'>
       <div className="flex justify-start">
         
-      <Button
-        className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md hover:border-yellow-800 text-yellow-700 border-1 border-yellow-700"
-        size="large"
-        variant="outlined"
+      <button
+        className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-2 border-yellow-700 hover:border-yellow-800 p-3 rounded-lg"
       >
         <Link href={'https://teacher.desmos.com/collection/5f36d2d2aa4e5b25271935dd?r=w.hd&lang=ko&collections=featured-collections'}>
         <p className="font-extrabold text-xl">데스모스</p>
         <p className="font-extrabold text-xl">{`(DESMOS)`}</p>
         </Link>
-      </Button>
+      </button>
       </div>
 
       <div>
 
       <div className="flex justify-start">
-      <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
-          size="large"
-          variant="outlined"
+      <button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-2 border-yellow-700 hover:border-yellow-800 p-3 rounded-lg"
           >
         <Link href={"https://www.algeomath.kr/algeo/tutorial/8/view.do?sortName=CONT"}>
         <p className="font-extrabold text-xl">알지오매스</p>
         <p className="font-extrabold text-xl">{`(ALGEOMATH)`}</p>
         </Link>
-        </Button>
+        </button>
       </div>
 
       </div>
       
       <div className="flex justify-start">
-      <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
-          size="large"
-          variant="outlined"
+      <button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-2 border-yellow-700 hover:border-yellow-800 p-3 rounded-lg w-28"
           >
         <Link href={"https://www.ebsi.co.kr/ebs/lms/player/retrieveLmsPlayerHtml5.ebs?sbjtapplyId=&sbjtId=S20230000448&lessonId=LS100030043036&lecGbn=V1M4"}>
-        <p className="font-extrabold text-xl">EBS 강의</p>
+        <p className="font-extrabold text-xl">EBS<br/> 강의</p>
         {/* <p className="font-extrabold text-xl">{`(ALGEOMATH)`}</p> */}
         </Link>
-        </Button>
+        </button>
         
       </div>
 
       <div className="flex justify-start">
-      <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
-          size="large"
-          variant="outlined"
+      <button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-2 border-yellow-700 hover:border-yellow-800 p-3 rounded-lg w-28"
           >
         <Link href={"https://www.youtube.com/watch?v=Kvg5-HGawkE"}>
-        <p className="font-extrabold text-xl">유튜브 강의</p>
+        <p className="font-extrabold text-xl">유튜브 <br/>강의</p>
         {/* <p className="font-extrabold text-xl">{`(ALGEOMATH)`}</p> */}
         </Link>
-        </Button>
+        </button>
         
       </div>
 
       <div className="flex justify-start">
-      <Button
-          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-1 border-yellow-700 hover:border-yellow-800"
-          size="large"
-          variant="outlined"
+      <button
+          className="hover:bg-yellow-200 bg-yellow-100 hover:shadow-md text-yellow-700 border-2 border-yellow-700 hover:border-yellow-800 p-3 rounded-lg"
           >
         <p className="font-extrabold text-lg">더 많은 문제 풀기</p>
-        </Button>
+        </button>
       </div>
 
 
