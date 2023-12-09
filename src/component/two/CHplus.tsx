@@ -106,7 +106,7 @@ export default function CHplus() {
       <p className="font-bold">미션 진행률: 100%</p>
       <ProgressBar value={100} />
       <div className="flex justify-between">
-        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/check')}/>
+        <TiArrowBack className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/second/CH/one')}/>
         {/* <TiArrowForward  className="cursor-pointer"  size={100} onClick={()=>router.push('/mathH/first/study')}/> */}
       </div>
       
